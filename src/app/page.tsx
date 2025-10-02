@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
         <h2 className="text-[64px] font-medium">
           A UX/UI designer focused on bridging the gap between digital products and branding design.
         </h2>
-        <Button className="w-[164px] h-[56px] rounded-4xl cursor-pointer">See projects</Button>
+        <Link href="/ita">
+          <Button className="w-[164px] h-[56px] rounded-4xl cursor-pointer">See projects</Button>
+        </Link>
       </div>
       <div className="flex flex-col gap-2.5">
         <p className="text-[18px] font-inter">Contact</p>
