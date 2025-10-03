@@ -2,6 +2,7 @@ import { ProjectHeader } from "@/components/header";
 import { ProjectPresentation } from "@/components/project-presentation";
 import { ProjectSection } from "@/components/project-section";
 import { ProjectCredits } from "@/components/project-credits";
+import { Footer } from "@/components/footer";
 
 export default function ItaEngineering() {
   return (
@@ -132,6 +133,7 @@ export default function ItaEngineering() {
           ]}
         />
       </main>
+      <Footer />
     </>
   );
 }
