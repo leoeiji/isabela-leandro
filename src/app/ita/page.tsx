@@ -27,17 +27,21 @@ export default function ItaEngineering() {
           subSections={[
             {
               type: "text",
-              title: "",
-              content: `To achieve the goal of translating ITA's pioneering spirit into
-                the digital realm, a website was developed that redefines user
-                interaction. Featuring a minimalist yet captivating design, the site
-                blends a sophisticated aesthetic with a series of visual events that
-                engage the user. Navigation was conceived in a disruptive way, eliminating
-                traditional buttons and adopting a model where scrolling and cursor
-                clicks become the primary forms of interaction. This approach creates
-                an immersive experience that mirrors the innovative solutions offered
-                by ITA Engenharia and reflects its solid and creative trajectory in the
-                engineered wood market.`,
+              content: [
+                {
+                  title: "",
+                  content: `To achieve the goal of translating ITA's pioneering spirit into
+                    the digital realm, a website was developed that redefines user
+                    interaction. Featuring a minimalist yet captivating design, the site
+                    blends a sophisticated aesthetic with a series of visual events that
+                    engage the user. Navigation was conceived in a disruptive way, eliminating
+                    traditional buttons and adopting a model where scrolling and cursor
+                    clicks become the primary forms of interaction. This approach creates
+                    an immersive experience that mirrors the innovative solutions offered
+                    by ITA Engenharia and reflects its solid and creative trajectory in the
+                    engineered wood market.`,
+                },
+              ],
             },
             {
               type: "image",
@@ -53,21 +57,24 @@ export default function ItaEngineering() {
           subSections={[
             {
               type: "text",
-              title: "Sitemap",
-              content: `Following the discovery phase—conducted through stakeholder
-              meetings and research—the development of the website's sitemap began.
-              By gaining a clear understanding of ITA Engenharia's solutions and market
-              positioning, it was possible to outline the site's information
-              architecture in a way that addresses the needs of all user profiles.
-              This ensured an optimized experience tailored to each type of visitor.`,
-            },
-            {
-              type: "text",
-              title: "Wireframe",
-              content: `After defining the sitemap, we designed medium-fidelity
-              wireframes for the entire website, with a particular focus on the
-              Solutions and Projects sections. We developed a system of listings
-              and filters to simplify navigation and enhance user experience.`,
+              content: [
+                {
+                  title: "Sitemap",
+                  content: `Following the discovery phase—conducted through stakeholder
+                  meetings and research—the development of the website's sitemap began.
+                  By gaining a clear understanding of ITA Engenharia's solutions and market
+                  positioning, it was possible to outline the site's information
+                  architecture in a way that addresses the needs of all user profiles.
+                  This ensured an optimized experience tailored to each type of visitor.`,
+                },
+                {
+                  title: "Wireframe",
+                  content: `After defining the sitemap, we designed medium-fidelity
+                  wireframes for the entire website, with a particular focus on the
+                  Solutions and Projects sections. We developed a system of listings
+                  and filters to simplify navigation and enhance user experience.`,
+                },
+              ],
             },
             {
               type: "image",
@@ -78,12 +85,16 @@ export default function ItaEngineering() {
             },
             {
               type: "text",
-              title: "UI Design",
-              content: `Uniting the entire solution design process with ITA Engenharia's
-              new visual identity, we began the interface design phase. Closely aligned
-              with the brand's visual assets, we developed the project's styleguide and
-              designed the interface, incorporating microinteractions to create a more
-              disruptive navigation experience—without compromising functionality.`,
+              content: [
+                {
+                  title: "UI Design",
+                  content: `Uniting the entire solution design process with ITA Engenharia's
+                  new visual identity, we began the interface design phase. Closely aligned
+                  with the brand's visual assets, we developed the project's styleguide and
+                  designed the interface, incorporating microinteractions to create a more
+                  disruptive navigation experience—without compromising functionality.`,
+                },
+              ],
             },
             {
               type: "image",

@@ -2,11 +2,14 @@ import { cn } from "@/lib/utils";
 
 import Image from "next/image";
 
-interface TextSubSectionProps {
-  type: "text";
+interface TextSubSectionContentProps {
   title: string;
   content: string;
-  breakline?: boolean;
+}
+
+interface TextSubSectionProps {
+  type: "text";
+  content: TextSubSectionContentProps[];
 }
 
 interface ImageSubSectionProps {
@@ -24,16 +27,18 @@ interface ProjectSectionProps {
 
 export function ProjectSection({ title, subSections }: ProjectSectionProps) {
   return (
-    <section className="grid grid-cols-2 mt-8 lg:grid-cols-12 gap-y-6 lg:gap-y-10">
-      <h2 className="text-sm text-[#9E9E9E] col-span-full lg:col-start-6">{title}</h2>
+    <section className="grid grid-cols-2 lg:grid-cols-12 mt-6">
       {subSections.map((subSection, index) => {
         if (subSection.type === "text") {
           return (
-            <div key={index} className="col-span-full lg:col-span-6 lg:col-start-6 lg:my-10">
-              <h3 className="font-bold mb-4">{subSection.title}</h3>
-              <p className={cn({ "whitespace-pre-line": subSection.breakline }, "text-md")}>
-                {subSection.content}
-              </p>
+            <div key={index} className="col-span-full lg:col-span-6 lg:col-start-6 py-6 lg:py-10">
+              <h2 className="text-sm text-[#9E9E9E] col-span-full lg:col-start-6">{title}</h2>
+              {subSection.content.map((textContent, textIndex) => (
+                <div key={textIndex} className="flex flex-col mt-4">
+                  {textContent.title && <h3 className="font-bold mb-5">{textContent.title}</h3>}
+                  <p className={cn("text-md")}>{textContent.content}</p>
+                </div>
+              ))}
             </div>
           );
         } else if (subSection.type === "image") {
@@ -44,7 +49,7 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
               alt={subSection.alt}
               width={subSection.width}
               height={subSection.height}
-              className="col-span-full w-full h-[250px] lg:h-screen object-cover"
+              className="col-span-full w-full h-[250px] lg:h-screen object-cover my-4 lg:my-10"
             />
           );
         }
