@@ -2,6 +2,7 @@ import { ProjectHeader } from "@/components/header";
 import { ProjectPresentation } from "@/components/project-presentation";
 import { ProjectSection } from "@/components/project-section";
 import { ProjectCredits } from "@/components/project-credits";
+import { ProjectSwitch } from "@/components/project-switch";
 import { Footer } from "@/components/footer";
 
 export default function ItaEngineering() {
@@ -144,6 +145,10 @@ export default function ItaEngineering() {
           ]}
         />
       </main>
+      <ProjectSwitch
+        nextProject={{ name: "Beontag", endpoint: "/beontag" }}
+        previousProject={{ name: "Carbonext", endpoint: "/lupo" }}
+      />
       <Footer />
     </>
   );
