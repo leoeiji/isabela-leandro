@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer";
 export default function ItaEngineering() {
   return (
     <>
-      <ProjectHeader nextProjectEndpoint="/beontag" />
+      <ProjectHeader />
       <ProjectPresentation
         name="ITA Engenharia"
         description="After undergoing a rebranding process to revitalize its image and
