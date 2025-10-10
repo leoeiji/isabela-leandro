@@ -32,7 +32,11 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
         if (subSection.type === "text") {
           return (
             <div key={index} className="col-span-full lg:col-span-6 lg:col-start-6 py-6 lg:py-10">
-              <h2 className="text-sm text-[#9E9E9E] col-span-full lg:col-start-6">{title}</h2>
+              <h2
+                className={cn("text-sm text-[#9E9E9E] col-span-full lg:col-start-6", index != 0 && "hidden")}
+              >
+                {title}
+              </h2>
               {subSection.content.map((textContent, textIndex) => (
                 <div key={textIndex} className="flex flex-col mt-4">
                   {textContent.title && <h3 className="font-bold mb-5">{textContent.title}</h3>}
