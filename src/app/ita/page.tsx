@@ -146,8 +146,8 @@ export default function ItaEngineering() {
         />
       </main>
       <ProjectSwitch
-        nextProject={{ name: "Beontag", endpoint: "/beontag" }}
-        previousProject={{ name: "Carbonext", endpoint: "/carbonext" }}
+        nextProject={{ name: "Home", endpoint: "/" }}
+        previousProject={{ name: "Beontag", endpoint: "/beontag" }}
       />
       <Footer />
     </>

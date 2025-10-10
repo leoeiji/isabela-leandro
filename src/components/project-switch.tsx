@@ -28,7 +28,7 @@ function ProjectButton({ project }: { project: ProjectProps }) {
         <span className="w-full text-center font-normal text-xl lg:text-2xl">{project.name}</span>
         <div className="flex items-center">
           <span className={cn("flex items-center gap-2", project.isNext ? "flex-row-reverse" : "")}>
-            <p className="hidden lg:block">{project.isNext ? "NEXT" : "PREVIOUS"}</p>
+            <p className="hidden lg:block">{project.isNext ? "PREVIOUS" : "NEXT"}</p>
             {project.isNext ? <ArrowLeft /> : <ArrowRight />}
           </span>
         </div>
