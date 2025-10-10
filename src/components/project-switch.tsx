@@ -1,6 +1,9 @@
+"use client";
+
 import { Button } from "./ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 
 interface ProjectProps {
   name: string;
@@ -14,8 +17,13 @@ interface ProjectSwitchProps {
 }
 
 function ProjectButton({ project }: { project: ProjectProps }) {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push(project.endpoint);
+  };
   return (
-    <Button className="w-full rounded-full p-8" asChild>
+    <Button className="w-full rounded-full p-8" asChild onClick={handleClick}>
       <div className={cn("flex w-full", project.isNext ? "flex-row-reverse" : "")}>
         <span className="w-full text-center font-normal text-xl lg:text-2xl">{project.name}</span>
         <div className="flex items-center">
