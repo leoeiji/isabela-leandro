@@ -11,7 +11,7 @@ export default function ItaEngineering() {
       <ProjectHeader />
       <ProjectPresentation
         name="Beontag"
-        description="AFollowing its global rebranding, Beontag—a leading company in IoT 
+        description="Following its global rebranding, Beontag—a leading company in IoT 
         solutions—sought to create a digital platform that would reflect this 
         transformation and efficiently integrate its product portfolio.The site
         features a responsive design, seamless catalog integration, and an optimized
