@@ -10,49 +10,22 @@ export default function ItaEngineering() {
     <>
       <ProjectHeader />
       <ProjectPresentation
-        name="ITA Engenharia"
-        description="After undergoing a rebranding process to revitalize its image and
-          reinforce its position as a leader in the engineered wood sector, ITA faced
-          its next major challenge: translating its innovative identity into the digital 
-          space. The goal was to create a website that clearly reflects the company's
-          cutting-edge vision and effectively communicates its expertise and excellence
-          in a powerful way."
+        name="Beontag"
+        description="AFollowing its global rebranding, Beontag—a leading company in IoT 
+        solutions—sought to create a digital platform that would reflect this 
+        transformation and efficiently integrate its product portfolio.The site
+        features a responsive design, seamless catalog integration, and an optimized
+        search system, making it easier for users to find products. In addition, the
+        platform highlights Beontag’s expertise in cutting-edge technology and reflects
+        its corporate identity—reinforcing its position as a leader in the IoT sector.
+        With this evolution, the company has strengthened its digital presence and
+        enhanced the experience for clients and business partners alike."
         services={["User Interface", "User Experience"]}
         agency="FutureBrand"
         year="2024"
-        cover="/images/ita/cover.png"
+        cover="/images/beontag/cover.png"
       />
       <main className="mx-4">
-        <ProjectSection
-          title="CONTEXT"
-          subSections={[
-            {
-              type: "text",
-              content: [
-                {
-                  title: "",
-                  content: `To achieve the goal of translating ITA's pioneering spirit into
-                    the digital realm, a website was developed that redefines user
-                    interaction. Featuring a minimalist yet captivating design, the site
-                    blends a sophisticated aesthetic with a series of visual events that
-                    engage the user. Navigation was conceived in a disruptive way, eliminating
-                    traditional buttons and adopting a model where scrolling and cursor
-                    clicks become the primary forms of interaction. This approach creates
-                    an immersive experience that mirrors the innovative solutions offered
-                    by ITA Engenharia and reflects its solid and creative trajectory in the
-                    engineered wood market.`,
-                },
-              ],
-            },
-            {
-              type: "image",
-              src: "/images/ita/LAD ITA 1.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 250,
-            },
-          ]}
-        />
         <ProjectSection
           title="PROCESS"
           subSections={[
@@ -60,75 +33,112 @@ export default function ItaEngineering() {
               type: "text",
               content: [
                 {
-                  title: "Sitemap",
-                  content: `Following the discovery phase—conducted through stakeholder
-                  meetings and research—the development of the website's sitemap began.
-                  By gaining a clear understanding of ITA Engenharia's solutions and market
-                  positioning, it was possible to outline the site's information
-                  architecture in a way that addresses the needs of all user profiles.
-                  This ensured an optimized experience tailored to each type of visitor.`,
-                },
-                {
-                  title: "Wireframe",
-                  content: `After defining the sitemap, we designed medium-fidelity
-                  wireframes for the entire website, with a particular focus on the
-                  Solutions and Projects sections. We developed a system of listings
-                  and filters to simplify navigation and enhance user experience.`,
+                  title: "Discovery",
+                  content: `To address the challenges and meet audience needs, a
+                  strategic and collaborative approach was adopted, including
+                  interactive workshops with both internal and external stakeholders. 
+                  During these workshops, key internal and external personas were
+                  mapped—an essential step in developing a personalized navigation
+                  experience, as the website functions as a product catalog and serves
+                  a variety of user profiles.`,
                 },
               ],
             },
             {
               type: "image",
-              src: "/images/ita/wireframe.png",
+              src: "/images/beontag/Frame 20.png",
               alt: "Project Overview",
               width: 1400,
-              height: 250,
+              height: 506,
+            },
+            {
+              type: "text",
+              content: [
+                {
+                  title: "Sitemap",
+                  content: `After compiling the insights gathered during the discovery
+                  phase, I designed the website’s sitemap by considering how each
+                  audience profile in the regions where Beontag operates interacts with
+                  the company’s products and solutions.`,
+                },
+                {
+                  title: "Wireframe",
+                  content: `The wireframe was designed in medium-to-high fidelity,
+                  consolidating the user navigation through prototypes developed
+                  in Figma, which were validated with the brand’s stakeholders in
+                  each country.`,
+                },
+                {
+                  title: "",
+                  content: `The website was designed to provide a seamless experience
+                  for both Beontag’s sales team and customers who prefer to navigate
+                  independently. The content was structured dynamically, with
+                  personalized navigation based on each user's technical level—offering
+                  an intuitive experience for beginners and more in-depth information
+                  for technical users.`,
+                },
+              ],
+            },
+            {
+              type: "image",
+              src: "/images/beontag/Captura de Tela 2025-05-07 às 22.28.46 1.png",
+              alt: "Project Overview",
+              width: 1400,
+              height: 821,
+            },
+            {
+              type: "image",
+              src: "/images/beontag/Captura de Tela 2025-05-07 às 22.53.26 1.png",
+              alt: "Project Overview",
+              width: 1400,
+              height: 626,
             },
             {
               type: "text",
               content: [
                 {
                   title: "UI Design",
-                  content: `Uniting the entire solution design process with ITA Engenharia's
-                  new visual identity, we began the interface design phase. Closely aligned
-                  with the brand's visual assets, we developed the project's styleguide and
-                  designed the interface, incorporating microinteractions to create a more
-                  disruptive navigation experience—without compromising functionality.`,
+                  content: `The final interface design leveraged brand elements to
+                  create a clean, easy-to-navigate layout, with a key highlight being
+                  the geolocation-based navigation. This feature automatically adjusts
+                  the displayed portfolio according to the user’s region, ensuring
+                  information is both relevant and appropriately tailored.`,
                 },
               ],
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 3.png",
+              src: "/images/beontag/Frame 15.png",
               alt: "Project Overview",
               width: 1400,
-              height: 250,
+              height: 352,
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 4.png",
+              src: "/images/beontag/lad_cover.png",
               alt: "Project Overview",
               width: 1400,
-              height: 250,
+              height: 735,
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 2.png",
+              src: "/images/beontag/grid-beontag 1.png",
               alt: "Project Overview",
               width: 1400,
-              height: 250,
+              height: 735,
             },
           ]}
         />
+
         <ProjectCredits
           teams={[
             {
               name: "UX/UI",
-              members: ["Isabela Leandro", "Luana Baiocco"],
+              members: ["Isabela Leandro"],
             },
             {
               name: "Development",
-              members: ["Gerson Lima", "Alanderson de Rosa", "Felipe Oliveira"],
+              members: ["Gerson Lima", "Alanderson de Rosa"],
             },
             {
               name: "Lead Digital",
@@ -146,8 +156,8 @@ export default function ItaEngineering() {
         />
       </main>
       <ProjectSwitch
-        nextProject={{ name: "Beontag", endpoint: "/beontag" }}
-        previousProject={{ name: "Carbonext", endpoint: "/lupo" }}
+        nextProject={{ name: "ITA Eng.", endpoint: "/ita" }}
+        previousProject={{ name: "Carbonext", endpoint: "/carbonext" }}
       />
       <Footer />
     </>
