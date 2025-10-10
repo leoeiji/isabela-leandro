@@ -104,7 +104,7 @@ export default function Oriz() {
       </main>
       <ProjectSwitch
         nextProject={{ name: "Carbonext", endpoint: "/carbonext" }}
-        previousProject={{ name: "Meyo", endpoint: "/meyo" }}
+        previousProject={{ name: "Home", endpoint: "/" }}
       />
       <Footer />
     </>
