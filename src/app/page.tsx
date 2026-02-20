@@ -12,7 +12,7 @@ const projects = [
     imageUrl: "/images/ita/LAD ITA 1.png",
     imageWidth: 500,
     imageHeight: 303,
-    size: "large" as const,
+    size: "medium" as const,
   },
   {
     title: "Beontag",
@@ -21,7 +21,7 @@ const projects = [
     imageUrl: "/images/beontag/beontag.png",
     imageWidth: 500,
     imageHeight: 303,
-    size: "small" as const,
+    size: "medium" as const,
   },
   {
     title: "Oriz",
