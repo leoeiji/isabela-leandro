@@ -41,7 +41,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/carbonext/Captura de Tela 2025-05-08 às 23.04.36 1.png",
+              src: "/images/carbonext/captura-1",
               alt: "Project Overview",
               width: 1400,
               height: 680,
@@ -87,7 +87,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/beontag/Captura de Tela 2025-05-07 às 22.53.26 1.png",
+              src: "/images/carbonext/captura-2.png",
               alt: "Project Overview",
               width: 1400,
               height: 626,

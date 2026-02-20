@@ -81,14 +81,14 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/beontag/Captura de Tela 2025-05-07 às 22.28.46 1.png",
+              src: "/images/beontag/captura-1.png",
               alt: "Project Overview",
               width: 1400,
               height: 821,
             },
             {
               type: "image",
-              src: "/images/beontag/Captura de Tela 2025-05-07 às 22.53.26 1.png",
+              src: "/images/beontag/captura-2.png",
               alt: "Project Overview",
               width: 1400,
               height: 626,
