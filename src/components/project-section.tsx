@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 
 import Image from "next/image";
+import { FadeIn } from "@/components/fade-in";
 
 interface TextSubSectionContentProps {
   title: string;
@@ -36,7 +37,7 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
       {subSections.map((subSection, index) => {
         if (subSection.type === "text") {
           return (
-            <div key={index} className="col-span-full lg:col-span-6 lg:col-start-6 py-6 lg:py-10">
+            <FadeIn key={index} className="col-span-full lg:col-span-6 lg:col-start-6 py-6 lg:py-10">
               <h2
                 className={cn("text-sm text-[#9E9E9E] col-span-full lg:col-start-6", index != 0 && "hidden")}
               >
@@ -48,30 +49,32 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
                   <p className={cn("text-md")}>{textContent.content}</p>
                 </div>
               ))}
-            </div>
+            </FadeIn>
           );
         } else if (subSection.type === "image") {
           return (
-            <Image
-              key={index}
-              src={subSection.src}
-              alt={subSection.alt}
-              width={subSection.width}
-              height={subSection.height}
-              className="col-span-full w-full h-[250px] lg:h-auto object-cover my-4 lg:my-10"
-            />
+            <FadeIn key={index} className="col-span-full my-4 lg:my-10">
+              <Image
+                src={subSection.src}
+                alt={subSection.alt}
+                width={subSection.width}
+                height={subSection.height}
+                className="w-full h-[250px] lg:h-auto object-cover"
+              />
+            </FadeIn>
           );
         } else if (subSection.type === "video") {
           return (
-            <video
-              key={index}
-              src={subSection.src}
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="col-span-full w-full h-[250px] lg:h-auto object-cover my-4 lg:my-10"
-            />
+            <FadeIn key={index} className="col-span-full my-4 lg:my-10">
+              <video
+                src={subSection.src}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-[250px] lg:h-auto object-cover"
+              />
+            </FadeIn>
           );
         }
         return null;
