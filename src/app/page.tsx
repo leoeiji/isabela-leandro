@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button";
 import { ProjectCover } from "@/components/project-cover";
 import { ProjectHeader } from "@/components/header";
 import { Footer } from "@/components/footer";
-import Link from "next/link";
+import { ScrollToProjectsButton } from "@/components/scroll-to-projects-button";
 
 const projects = [
   {
@@ -62,11 +61,11 @@ export default function Home() {
           <h2 className="text-4xl font-medium lg:col-span-8 lg:text-6xl">
             A UX/UI designer focused on bridging the gap between digital products and branding design.
           </h2>
-          <Link href="/ita" className="lg:col-span-12">
-            <Button className="w-[135px] h-[48px] rounded-4xl cursor-pointer">See projects</Button>
-          </Link>
+          <div className="lg:col-span-12">
+            <ScrollToProjectsButton />
+          </div>
         </div>
-        <div className="grid grid-cols-12 gap-6 auto-rows-auto lg:mt-20">
+        <div id="projects" className="grid grid-cols-12 gap-6 auto-rows-auto lg:mt-20">
           {projects.map((project) => (
             <ProjectCover
               key={project.title}
