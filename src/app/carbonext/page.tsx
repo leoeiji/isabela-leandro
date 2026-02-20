@@ -41,7 +41,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/carbonext/captura-1",
+              src: "/images/carbonext/captura-1.png",
               alt: "Project Overview",
               width: 1400,
               height: 680,
