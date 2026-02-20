@@ -41,6 +41,15 @@ const projects = [
     imageHeight: 303,
     size: "medium" as const,
   },
+  {
+    title: "Banco da Amazônia",
+    subtitle: "UX/UI Design",
+    projectUrl: "/banco-amazonia",
+    imageUrl: "/images/banco-amazonia/cover.png",
+    imageWidth: 500,
+    imageHeight: 303,
+    size: "medium" as const,
+  },
 ];
 
 export default function Home() {
