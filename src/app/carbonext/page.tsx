@@ -41,7 +41,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/carbonext/captura-1.png",
+              src: "/images/carbonext/1.png",
               alt: "Project Overview",
               width: 1400,
               height: 680,
@@ -68,7 +68,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/carbonext/Frame 20.png",
+              src: "/images/carbonext/2.png",
               alt: "Project Overview",
               width: 1400,
               height: 680,
@@ -87,48 +87,28 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/carbonext/captura-2.png",
+              src: "/images/carbonext/3.png",
               alt: "Project Overview",
               width: 1400,
               height: 626,
             },
             {
-              type: "text",
-              content: [
-                {
-                  title: "UI Design",
-                  content: `The final interface design leveraged brand elements to
-                  create a clean, easy-to-navigate layout, with a key highlight being
-                  the geolocation-based navigation. This feature automatically adjusts
-                  the displayed portfolio according to the user’s region, ensuring
-                  information is both relevant and appropriately tailored.`,
-                },
-              ],
-            },
-            {
               type: "image",
-              src: "/images/carbonext/carbonext-mock-2.png",
+              src: "/images/carbonext/4.png",
               alt: "Project Overview",
               width: 1400,
               height: 735,
             },
             {
               type: "image",
-              src: "/images/carbonext/Captura de Tela 2025-05-07 às 23.28.29 1.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 735,
-            },
-            {
-              type: "image",
-              src: "/images/carbonext/Frame 15.png",
+              src: "/images/carbonext/5.png",
               alt: "Project Overview",
               width: 1400,
               height: 459,
             },
             {
               type: "image",
-              src: "/images/carbonext/grid-phone-carbonext 1.png",
+              src: "/images/carbonext/6.png",
               alt: "Project Overview",
               width: 1400,
               height: 680,

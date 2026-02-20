@@ -53,7 +53,7 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
               alt={subSection.alt}
               width={subSection.width}
               height={subSection.height}
-              className="col-span-full w-full h-[250px] lg:h-screen object-cover my-4 lg:my-10"
+              className="col-span-full w-full h-[250px] lg:h-auto object-cover my-4 lg:my-10"
             />
           );
         }
