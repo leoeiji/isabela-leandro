@@ -20,9 +20,14 @@ interface ImageSubSectionProps {
   height: number;
 }
 
+interface VideoSubSectionProps {
+  type: "video";
+  src: string;
+}
+
 interface ProjectSectionProps {
   title: string;
-  subSections: (TextSubSectionProps | ImageSubSectionProps)[];
+  subSections: (TextSubSectionProps | ImageSubSectionProps | VideoSubSectionProps)[];
 }
 
 export function ProjectSection({ title, subSections }: ProjectSectionProps) {
@@ -53,6 +58,18 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
               alt={subSection.alt}
               width={subSection.width}
               height={subSection.height}
+              className="col-span-full w-full h-[250px] lg:h-auto object-cover my-4 lg:my-10"
+            />
+          );
+        } else if (subSection.type === "video") {
+          return (
+            <video
+              key={index}
+              src={subSection.src}
+              autoPlay
+              muted
+              loop
+              playsInline
               className="col-span-full w-full h-[250px] lg:h-auto object-cover my-4 lg:my-10"
             />
           );

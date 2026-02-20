@@ -22,7 +22,7 @@ export default function ItaEngineering() {
         services={["User Interface", "User Experience"]}
         agency="FutureBrand"
         year="2026"
-        cover="/images/banco-amazonia/cover.png"
+        cover="/images/banco-amazonia/cover.mp4"
       />
       <main className="mx-4">
         <ProjectSection
@@ -44,18 +44,12 @@ export default function ItaEngineering() {
               ],
             },
             {
-              type: "image",
-              src: "/images/banco-amazonia/1.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 680,
+              type: "video",
+              src: "/images/banco-amazonia/1.mp4",
             },
             {
-              type: "image",
-              src: "/images/banco-amazonia/2.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 680,
+              type: "video",
+              src: "/images/banco-amazonia/2.mp4",
             },
           ]}
         />
@@ -82,18 +76,12 @@ export default function ItaEngineering() {
               ],
             },
             {
-              type: "image",
-              src: "/images/banco-amazonia/3.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 680,
+              type: "video",
+              src: "/images/banco-amazonia/3.mp4",
             },
             {
-              type: "image",
-              src: "/images/banco-amazonia/4.png",
-              alt: "Project Overview",
-              width: 1400,
-              height: 680,
+              type: "video",
+              src: "/images/banco-amazonia/4.mp4",
             },
           ]}
         />

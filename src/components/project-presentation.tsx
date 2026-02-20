@@ -44,13 +44,24 @@ export function ProjectPresentation({
           </div>
         </div>
       </section>
-      <Image
-        src={cover}
-        alt={`Cover image for ${name}`}
-        className="w-full mt-10 mb-4 h-[400px] lg:h-screen object-cover"
-        width={1440}
-        height={680}
-      />
+      {cover.endsWith(".mp4") ? (
+        <video
+          src={cover}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full mt-10 mb-4 h-[400px] lg:h-screen object-cover"
+        />
+      ) : (
+        <Image
+          src={cover}
+          alt={`Cover image for ${name}`}
+          className="w-full mt-10 mb-4 h-[400px] lg:h-screen object-cover"
+          width={1440}
+          height={680}
+        />
+      )}
     </>
   );
 }
