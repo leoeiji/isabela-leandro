@@ -64,6 +64,9 @@ export function ProjectPresentation({
             className="w-full mt-10 mb-4 h-[400px] lg:h-screen object-cover"
             width={1440}
             height={680}
+            quality={100}
+            priority
+            sizes="100vw"
           />
         )}
       </FadeIn>

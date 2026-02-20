@@ -60,6 +60,8 @@ export function ProjectSection({ title, subSections }: ProjectSectionProps) {
                 width={subSection.width}
                 height={subSection.height}
                 className="w-full h-[250px] lg:h-auto object-cover"
+                quality={100}
+                sizes="100vw"
               />
             </FadeIn>
           );

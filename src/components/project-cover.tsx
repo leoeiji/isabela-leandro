@@ -30,6 +30,8 @@ export function ProjectCover(props: ProjectCoverProps) {
           className="w-full h-full object-cover"
           width={props.imageWidth}
           height={props.imageHeight}
+          quality={90}
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
       <span className="uppercase text-sm">{props.subtitle}</span>
