@@ -46,7 +46,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 1.png",
+              src: "/images/ita/1.png",
               alt: "Project Overview",
               width: 1400,
               height: 250,
@@ -79,7 +79,7 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/ita/wireframe.png",
+              src: "/images/ita/5.png",
               alt: "Project Overview",
               width: 1400,
               height: 250,
@@ -99,21 +99,21 @@ export default function ItaEngineering() {
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 3.png",
+              src: "/images/ita/3.png",
               alt: "Project Overview",
               width: 1400,
               height: 250,
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 4.png",
+              src: "/images/ita/4.png",
               alt: "Project Overview",
               width: 1400,
               height: 250,
             },
             {
               type: "image",
-              src: "/images/ita/LAD ITA 2.png",
+              src: "/images/ita/2.png",
               alt: "Project Overview",
               width: 1400,
               height: 250,
